@@ -1,0 +1,19 @@
+{
+  "name": "reaction-discord-bot",
+  "version": "1.0.0",
+  "description": "discord bot that plays silly sounds in response to what people say",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajcarso2/Discord-Reaction-Sounds.git"
+  },
+  "author": "Austin Carson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajcarso2/Discord-Reaction-Sounds/issues"
+  },
+  "homepage": "https://github.com/ajcarso2/Discord-Reaction-Sounds#readme"
+}
