@@ -4,7 +4,8 @@
   "description": "discord bot that plays silly sounds in response to what people say",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,12 @@
   "bugs": {
     "url": "https://github.com/ajcarso2/Discord-Reaction-Sounds/issues"
   },
-  "homepage": "https://github.com/ajcarso2/Discord-Reaction-Sounds#readme"
+  "homepage": "https://github.com/ajcarso2/Discord-Reaction-Sounds#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.1",
+    "@picovoice/porcupine-node": "^3.0.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
 }
-
